@@ -1,0 +1,137 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Carlos Ferreira",
+      "telefone": "11900001111"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Pizza Margherita",
+      "preco": 45.9,
+      "categoria": "pizza"
+    },
+    {
+      "id": 2,
+      "nome": "Agua Mineral",
+      "preco": 5.0,
+      "categoria": "bebida"
+    }
+  ],
+  "estoques": {
+    "1": {
+      "produto_id": 1,
+      "quantidade": 7
+    },
+    "2": {
+      "produto_id": 2,
+      "quantidade": 15
+    }
+  },
+  "mesas": [
+    {
+      "id": 1,
+      "numero": 1,
+      "status": "livre"
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "status": "livre"
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "status": "ocupada"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "mesa_id": 1,
+      "cliente_id": 1,
+      "status": "pago",
+      "total": 101.8,
+      "itens": [
+        {
+          "id": 1,
+          "pedido_id": 1,
+          "produto_id": 1,
+          "nome_produto": "Pizza Margherita",
+          "preco_unitario": 45.9,
+          "quantidade": 2,
+          "subtotal": 91.8
+        },
+        {
+          "id": 2,
+          "pedido_id": 1,
+          "produto_id": 2,
+          "nome_produto": "Agua Mineral",
+          "preco_unitario": 5.0,
+          "quantidade": 2,
+          "subtotal": 10.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mesa_id": 2,
+      "cliente_id": null,
+      "status": "pago",
+      "total": 45.9,
+      "itens": [
+        {
+          "id": 3,
+          "pedido_id": 2,
+          "produto_id": 1,
+          "nome_produto": "Pizza Margherita",
+          "preco_unitario": 45.9,
+          "quantidade": 1,
+          "subtotal": 45.9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mesa_id": 3,
+      "cliente_id": null,
+      "status": "aberto",
+      "total": 15.0,
+      "itens": [
+        {
+          "id": 4,
+          "pedido_id": 3,
+          "produto_id": 2,
+          "nome_produto": "Agua Mineral",
+          "preco_unitario": 5.0,
+          "quantidade": 3,
+          "subtotal": 15.0
+        }
+      ]
+    }
+  ],
+  "pagamentos": [
+    {
+      "id": 1,
+      "pedido_id": 1,
+      "valor": 101.8,
+      "metodo": "pix"
+    },
+    {
+      "id": 2,
+      "pedido_id": 2,
+      "valor": 45.9,
+      "metodo": "dinheiro"
+    }
+  ],
+  "contadores": {
+    "cliente": 2,
+    "produto": 3,
+    "mesa": 4,
+    "pedido": 4,
+    "item": 5,
+    "pagamento": 3
+  }
+}

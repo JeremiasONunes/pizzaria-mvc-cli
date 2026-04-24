@@ -29,7 +29,7 @@ Entender o domínio do sistema, modelar as entidades e esboçar as interfaces de
 - [ ] Ler o enunciado e entender as regras de negócio da pizzaria
 - [ ] Identificar as entidades: `Cliente`, `Produto`, `Estoque`, `Mesa`, `Pedido`, `ItemPedido`, `Pagamento`
 - [ ] Criar o diagrama MER com todos os relacionamentos
-- [ ] Documentar as entidades e atributos em `docs/README.md`
+- [ ] Documentar as entidades e atributos em `docs/mer.pdf`
 - [ ] Esboçar os menus CLI de cada entidade (no papel ou digitalmente)
 
 ### Entregáveis
