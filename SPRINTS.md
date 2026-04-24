@@ -388,6 +388,7 @@ Criar/atualizar `README.md` na raiz do projeto com:
 | Sprint 4 | `controllers/` (3 arquivos) | Lógica de negócio, validações |
 | Sprint 5 | `controllers/` (3 arquivos) + `models/database.py` | Persistência, injeção de dependência |
 | Sprint 6 | `main.py`, `README.md` | Integração, arquitetura MVC completa |
+| Sprint 6 | `backlog de entrega` | roda de conversa sobre o projeto e desenvolvimento em etapas |
 
 ---
 
